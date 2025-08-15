@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of curriculum projects by Jane Doe.">
+    <title>Curriculum Projects - Jane Doe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jane Doe</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" class="active">Curriculum</a></li>
+                    <li><a href="writing.html">Writing</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                    <li><a href="blog.html">Reflections</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-title">
+            <h2>Curriculum Projects</h2>
+            <p>Here are some of the inquiry-based, student-centered curriculum units I've designed.</p>
+        </section>
+
+        <section class="project-gallery">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="history">History</button>
+                <button class="filter-btn" data-filter="ela">ELA</button>
+                <button class="filter-btn" data-filter="interdisciplinary">Interdisciplinary</button>
+            </div>
+
+            <div class="gallery">
+                <!-- Project items will be dynamically inserted here or listed statically -->
+                <a href="projects/project1.html" class="gallery-item" data-category="history">
+                    <img src="assets/images/project1-thumbnail.png" alt="Thumbnail for Historical Inquiry Project">
+                    <h4>Project: Historical Inquiry</h4>
+                    <p>An inquiry-based unit on ancient civilizations.</p>
+                </a>
+                <a href="#" class="gallery-item" data-category="ela">
+                    <img src="assets/images/project2-thumbnail.png" alt="Thumbnail for a project about narrative writing">
+                    <h4>The Storyteller's Workshop</h4>
+                    <p>A narrative writing unit focused on personal voice.</p>
+                </a>
+                <a href="#" class="gallery-item" data-category="interdisciplinary">
+                    <img src="assets/images/project3-thumbnail.png" alt="Thumbnail for a project about mapping communities">
+                    <h4>Mapping Our Community</h4>
+                    <p>An interdisciplinary project combining geography, history, and civic engagement.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jane Doe | <a href="mailto:jane.doe@example.com">jane.doe@example.com</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
